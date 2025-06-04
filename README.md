@@ -1,1 +1,0 @@
-this is a draft, i'm going to add css and change texts,img etc
