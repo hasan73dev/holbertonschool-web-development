@@ -9,11 +9,20 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+.nav-container a {
+    margin-right: 10px;
+}
+.nav-container img{
+    width: 30px;
+    height: 30px;
 }
 #banner-texts{
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 main{
@@ -30,16 +39,16 @@ nav a{
     color: white;
     text-decoration: none;
 }
-section div:first-child{
+section #banner-info{
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 180px;
-    margin-top: 10px;
+    margin-bottom: 290px;
+    margin-top: 70px;
 }
 
-#register-button{
+.register-button{
   color: white;
   background-color: #C271FF;
   width: 162px;
@@ -59,6 +68,10 @@ div#avatars{
     height: 237px;
     text-align: center;
 }
+#avatars p{
+    font-weight: 400;
+    line-height: 24px;
+}
 section#person{
     background-color: #C271FF;
     height: 392px;
@@ -66,4 +79,115 @@ section#person{
     justify-content: center;
     align-items: center;
     color: white;
+}
+#video-list{
+    width: 255px;
+    height: 335px;
+}
+.video-creator-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #C271FF;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.video-creator-name img{
+    border-radius: 50%;
+    
+}
+#video-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.stars-and-duraction{
+    display: flex;
+    justify-content: space-between;
+}
+#membership-info{
+    background-color: #071629;
+    height: 502px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#membership-info #h1-container{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+   
+}
+#membership-info p{
+   font-weight: 400;
+}
+#membership-info .boxes{
+    width: 257px;
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+span.color{
+    color: #C271FF;
+    font-weight: 700;
+}
+#faq{
+    height: 707px;
+    
+}
+#faq > h1{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 300;
+}
+.faq-boxes{
+    width: 350px;
+    height: 242px;
+    
+
+}  
+
+.faq-boxes p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #07162980;
+    font-weight: 400;
+}
+.faq-boxes h2{
+    font-weight: 700;
+    line-height: 100%;
+    color: #071629;
+}
+.margin{
+    margin-bottom: 40px;
+}
+footer{
+    background-color: #071629;
+    height: 249px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+   
+}
+footer p{
+   display: flex;
+   justify-content: center;
+   font-size: 12px;
+   opacity: 35.17%;
+   
+
+}
+#footer-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
 }
